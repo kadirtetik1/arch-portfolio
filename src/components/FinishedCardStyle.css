@@ -1,0 +1,175 @@
+
+.bg-card-finished{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 35rem;
+    background-color: #212121;
+    margin-left: 1rem;
+
+    border: 1rem solid #212121;
+    border-radius: 1rem;
+    box-shadow: 0px 10px 2rem #000000;
+
+    cursor: pointer;
+
+}
+
+.card-image{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(9, 16, 64);
+    background: url("../assets/customerBg.jpg");
+    background-size:cover;
+    /* border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem; */
+    border-radius: 1rem;
+}
+
+.card-content{
+    text-align: center;
+    width: 100%;
+    height: 40%;
+    background-color: #212121;
+    
+}
+
+.card-buttons{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 80, 127);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+
+.card-buttons:hover{
+    background-color: rgba(19, 80, 127, 0.669);
+}
+
+@media screen and (max-width:1800px) {
+
+    .bg-card-finished{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        height: 30rem;
+        margin-left: 0.5rem !important;
+}
+
+.card-content h1{
+
+    font-size: 16px;
+
+}
+
+.card-content p{
+
+    font-size: 12px;
+
+}
+
+.card-buttons h4{
+
+    font-size: 14px;
+
+}
+
+}
+
+
+@media screen and (max-width:1300px) {
+
+    .bg-card-finished{
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        height: 35vw;
+        border: 0.5rem solid #212121;
+}
+
+.card-content h1{
+
+    font-size: 14px;
+
+}
+
+.card-content p{
+
+    font-size: 9px;
+
+}
+
+.card-buttons h4{
+
+    font-size: 11px;
+
+}
+
+}
+
+@media screen and (max-width:900px) {
+
+    .bg-card-finished{
+        display: flex;
+        flex-direction: column;
+        width: 35vw;
+        height: 45vw;
+        border: 0.5rem solid #212121;
+}
+
+.card-content h1{
+
+    font-size: 14px;
+
+}
+
+.card-content p{
+
+    font-size: 9px;
+
+}
+
+.card-buttons h4{
+
+    font-size: 11px;
+
+}
+
+}
+
+
+@media screen and (max-width:640px) {
+
+    .bg-card-finished{
+        display: flex;
+        flex-direction: column;
+        width: 40vw;
+        height: 70vw;
+        border: 0.5rem solid #212121;
+}
+
+.card-content h1{
+
+    font-size: 14px;
+
+}
+
+.card-content p{
+
+    font-size: 9px;
+
+}
+
+.card-buttons h4{
+
+    font-size: 11px;
+
+}
+
+}
+
+

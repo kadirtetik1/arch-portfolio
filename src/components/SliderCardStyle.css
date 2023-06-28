@@ -1,0 +1,116 @@
+
+.mySwiper{
+    /* display: flex; */
+    width: 90vw !important;
+    height:45rem !important;
+
+    position: fixed;
+    
+}
+
+.mySlide{
+    margin-top: 2rem !important;
+    margin: 0px 1rem;
+}
+
+#app {
+    height: 100%;
+  }
+  /* html,
+  body {
+    position: relative;
+    height: 100%;
+  } */
+ 
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+ 
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    height: 45vw;
+  
+    flex-shrink:200 !important;
+    width: 103rem;
+  
+    
+  }
+  
+
+  @media screen and (max-width:1800px) {
+
+    .mySwiper{
+        /* display: flex; */
+        width: 90vw !important;
+        height:40rem !important;
+        
+        
+    }
+
+    .mySlide{
+        margin-top: 0.5rem !important;
+        margin: 0px 0.25rem;
+        
+    }
+    
+  }
+
+  @media screen and (max-width:1300px) {
+
+    .mySwiper{
+        /* display: flex; */
+        width: 90vw !important;
+        height:45vw !important;
+        
+        
+    }
+
+    .mySlide{
+        margin-top: 1vw !important;
+        margin: 0px 0.25rem;
+        
+    }
+    
+  }
+
+  @media screen and (max-width:900px) {
+
+    .mySwiper{
+        /* display: flex; */
+        width: 90vw !important;
+        height:55vw !important;
+        
+        
+    }
+
+    .mySlide{
+        margin-top: 0.5rem !important;
+        margin: 0px 0.25rem;
+        
+    }
+    
+  }
+
+  @media screen and (max-width:640px) {
+
+    .mySwiper{
+        /* display: flex; */
+        width: 90vw !important;
+        height:80vw !important;
+        
+        
+    }
+
+    .mySlide{
+        margin-top: 0.5rem !important;
+        margin: 0px 0.25rem;
+        
+    }
+    
+  }
+
+ 
